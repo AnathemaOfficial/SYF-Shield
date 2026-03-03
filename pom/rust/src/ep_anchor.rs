@@ -19,8 +19,9 @@ pub trait FirstPartialIrreversibility {
 /// Null anchor for PoM testing — simulates irreversibility without side effects.
 ///
 /// WARNING: demo only. Real AB-Soft must anchor this to a real frontier.
+/// Field is private to prevent external reset of commitment state.
 pub struct NullAnchor {
-    committed: bool,
+    committed: bool, // private: prevents `anchor.committed = false` bypass
 }
 
 impl NullAnchor {

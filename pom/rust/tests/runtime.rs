@@ -113,8 +113,8 @@ fn rz_interruption_leaves_zero_residue() {
     let prepared = input.prepare(); // RZ step
 
     // Simulate crash: drop all RZ state
-    drop(prepared);
-    drop(input);
+    let _ = prepared;
+    let _ = input;
 
     // After "reboot": system state identical to before RZ entry
     // (no persistent residue — verified by absence of side effects in prepare())

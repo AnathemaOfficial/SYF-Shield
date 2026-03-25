@@ -43,8 +43,8 @@ Rust `no_std` implementation demonstrating structural impossibility:
 
 ```bash
 cd pom/rust
-cargo test          # Runtime tests (token linearity, exhaustion semantics)
-cargo test --doc    # Compile-fail tests (SEALED = path absence)
+cargo test               # Runtime tests and checked-in compile-fail suite
+cargo test --test compile_fail
 ```
 
 **Key Properties Verified:**

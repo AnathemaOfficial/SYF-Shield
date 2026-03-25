@@ -77,7 +77,7 @@ allow an integrator to bypass invariants by operating at the type-surface level.
 
 ## Audit Results
 
-### SYF-Shield (Phase 4.4 PoM) — 2026-03-03
+### SYF-Shield (Phase 4.4 PoM) — 2026-03-03, resealed 2026-03-25
 - **All 10 points: PASS**
 - Hardened: `Ust(u32)`, `Cost(NonZeroU32)`, `Capacity(Ust)` — inners now private
 - Compile-fail test added: `capacity_not_writable.rs`

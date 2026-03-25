@@ -1,0 +1,17 @@
+error[E0616]: field `0` of struct `syf_shield_pom::Capacity` is private
+ --> tests/ui/capacity_not_writable.rs:8:17
+  |
+8 |     let _ = cap.0;
+  |                 ^ private field
+
+error[E0616]: field `0` of struct `syf_shield_pom::Ust` is private
+  --> tests/ui/capacity_not_writable.rs:12:17
+   |
+12 |     let _ = ust.0;
+   |                 ^ private field
+
+error[E0616]: field `0` of struct `syf_shield_pom::Cost` is private
+  --> tests/ui/capacity_not_writable.rs:16:18
+   |
+16 |     let _ = cost.0;
+   |                  ^ private field

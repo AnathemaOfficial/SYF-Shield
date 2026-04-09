@@ -1,3 +1,5 @@
+<img width="256" height="256" alt="syf shield" src="https://github.com/user-attachments/assets/9c7b60af-be45-4e54-9548-4fe1f61f4af7" />
+
 # SYF-Shield — Phase 4.4 Sealed
 
 **Status:** ✅ CANON IMMUTABLE · Phase 4.4 · Machine World Only  

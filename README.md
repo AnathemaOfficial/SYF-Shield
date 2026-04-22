@@ -39,6 +39,39 @@ Implementation (`pom/`) must conform to the law — never the reverse.
 
 ---
 
+## 🧭 Position in Lineage
+
+SYF-Shield is an **intermediate primitive**, complementary to Gate — not a
+terminal core and not a membrane.
+
+Canonical chronology of the ecosystem:
+
+1. **SYF-Core** — upstream thermodynamic theory (`R = (F × E) / K`)
+2. **SYF-Gate** — structural admissibility primitive
+3. **SYF-Shield** — capacity, progression, and irreversibility primitive (this repo)
+4. **Anathema-Breaker** — sealed synthesis of **Gate + Shield** into a resolution core
+5. **SLIME-Core** — canonical execution membrane built from that core
+
+### Complementarity with Gate
+
+- **Gate** determines whether progression **may begin**.
+- **Shield** governs how capacity is **consumed** once engagement has begun.
+- Shield's progression is triggered **only** by a Gate `ALLOW`.
+- Their sealed synthesis becomes **Anathema-Breaker**.
+
+Gate and Shield are not competing deny layers. Gate owns admissibility at the
+boundary; Shield owns capacity, progression, and irreversibility inside the
+admitted trajectory.
+
+### Scope clarification
+
+Shield enforces **structural impossibility of a traversable execution path
+within a bounded instrumented domain**. It does not claim universal material
+impossibility — DMA paths, hardware rollback, and similar concerns belong to
+the future Anathema-Hard tier, not AB-Soft.
+
+---
+
 ## ⚙️ Proof-of-Mechanism (PoM)
 
 Rust `no_std` implementation demonstrating structural impossibility:
